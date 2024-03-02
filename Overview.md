@@ -13,7 +13,7 @@ Examples: Explore example code snippets and small projects to practice Python co
 
 Resources: Discover additional learning materials, tutorials, and references to deepen your understanding of Python.
 
-How to Use This Repository
+# How to Use This Repository
 
 Clone or download the repository to your local machine.
 
