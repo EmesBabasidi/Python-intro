@@ -1,3 +1,5 @@
+# INTRODUCTION
+
 Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
 
 It is used for: web development (server-side),software development,mathematics,system scripting.
@@ -12,6 +14,8 @@ Data analysis and machine learning
 Python has become a staple in data science, allowing data analysts and other professionals to use the language to conduct complex statistical calculations, create data visualizations, build machine learning algorithms, manipulate and analyze data, and complete other data-related tasks.
 
 Python can build a wide range of different data visualizations, like line and bar graphs, pie charts, histograms, and 3D plots. Python also has a number of libraries that enable coders to write programs for data analysis and machine learning more quickly and efficiently, like TensorFlow and Keras.
+
+# WHY PYTHON IS POPULAR?
 
 Python is popular for a number of reasons.
 It has a simple syntax that mimics natural language, so it’s easier to read and understand.
