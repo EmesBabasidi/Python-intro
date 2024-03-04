@@ -26,13 +26,13 @@ VS Code is a free, lightweight source code editor customizable through extension
 2. **IDEs Feature:**
    Supporting debugging tools, source control integration, and numerous programming languages, VS Code combines the benefits of both code editors and IDEs.
 
-3. **Versatile:**
+4. **Versatile:**
    Compatible with Windows, Linux, and MacOS.
 
-4. **Explorer:**
+5. **Explorer:**
    This feature allows you to create, save, find, and open files and folders without switching to a file manager application.
 
-5. **Extensibility:**
+6. **Extensibility:**
    Additional features and functionality can be added beyond the initial download, including support for other languages, frameworks, themes, and tools.
 
 For more details on why you should use VS Code, refer to [Introduction to Visual Studio Code](https://learn.microsoft.com/en-us/training/modules/introduction-to-visual-studio-code).
@@ -44,3 +44,19 @@ For more details on why you should use VS Code, refer to [Introduction to Visual
 
 2. **Install Visual Studio Code:**
    If not already installed, download and install VS Code. Then, install the Python extension in VS Code. Detailed procedures can be found [here](https://learn.microsoft.com/en-us/training/modules/python-install-vscode).
+
+# Jupyter Notebook
+
+[Jupyter Notebook](https://jupyter.org/) is an interactive web UI environment designed for creating notebook documents using Python and R languages. These documents function similarly to REPL (Read–Eval–Print Loop), providing the ability to execute statements, along with features such as code completion, plots, and rich media.
+
+One notable advantage of Jupyter Notebook is the inclusion of essential libraries, eliminating the need for separate installations. The required libraries are pre-installed, allowing users to import and use them seamlessly.
+
+## Installation
+
+The recommended method for installing and running Jupyter Notebook is through [Anaconda](https://www.anaconda.com/). Anaconda not only installs Jupyter Notebook but also includes a variety of other Python packages. For a step-by-step guide on installing Anaconda and Jupyter Notebook, refer to the link [here](https://sparkbyexamples.com/python/install-anaconda-jupyter-notebook/).
+
+## VS Code Integration
+
+If you already have Visual Studio Code (VS Code) installed and configured, you can easily extend its functionality by adding the Jupyter Notebook extension. This enables you to run Jupyter Notebooks directly from within VS Code, streamlining your workflow.
+
+Jupyter Notebook is known for its user-friendly and intuitive interface, requiring minimal discussion on its usage.
