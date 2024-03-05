@@ -53,7 +53,23 @@ def is_He_in():  # Function declaration
     else:  # Conditional statement
         print('He is out')  # Conditional statement
 
-is_He_in()  # Calling the function
+is_He_in()  # invoking the function
 ```
 
-This example showcases various elements of Python syntax, including variable declaration, function definition, conditional statements, and function invocation. As we progress, we'll see the details of each of these components.
+This example shows various elements of Python syntax, including variable declaration, function definition, conditional statements, and function invocation. As we progress, we'll see the details of each of these components.
+
+## Data Types
+
+The most basic data types used extensively in programming (python and others) are:
+
+1. Integer (int): Represents whole numbers without decimal points, such as 5 or -10.
+
+2. Float (float): Represents numbers with decimal points, like 3.14 or -0.5.
+
+3. String (str): Represents sequences of characters, enclosed in single (' ') or double (" ") quotes, like "Hello, Python!".
+
+4. Boolean (bool): Represents binary values, either True or False.
+
+These fundamental data types form the building blocks for more complex data structures and are widely employed in programming for various applications.
+We shall see some examples very soon. 
+The good thing about python with regards to data types is that it automatically detects what is the type of data in question without you telling it. Also there is no need for you to declare the data type of a variable as in other languages like C++.
