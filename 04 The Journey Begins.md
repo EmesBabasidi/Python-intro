@@ -223,3 +223,61 @@ print(x)
 x **= 3  # Equivalent to x = x ** 3
 print(x)
 ```
+# Variables in Python
+Variables are containers for storing data values. In Python, you don't need to declare variables before using them, and the data type is inferred from the value assigned to the variable.
+
+## Key Points About Variables in Python:
+Naming Conventions:
+1. Variable names must start with a letter (a-z, A-Z) or an underscore (_).
+2. The subsequent characters can be letters, numbers, or underscores.
+3. Variable names are case-sensitive (myVar and myvar are different).
+
+## Assignment:
+You can assign a value to a variable using the equals sign (=).
+The data type of the variable is automatically determined by the value assigned.
+``` python
+x = 5           # Integer
+y = "Hello"     # String
+z = 3.14        # Float
+is_active = True  # Boolean
+```
+### Multiple Assignments:
+You can assign multiple variables in a single line.
+```python
+a, b, c = 1, 2, 3
+```
+### Reassignment:
+You can change the value of a variable at any time.
+```python
+x = 10
+x = "Now I'm a string"
+```
+### Swapping Variables:
+
+Python allows easy swapping of variable values.
+``` python
+a, b = b, a
+```
+
+Example Code:
+``` python
+# Assigning values to variables
+name = "Alice"
+age = 30
+height = 5.7
+is_student = True
+
+# Printing variable values
+print(name)       # Output: Alice
+print(age)        # Output: 30
+print(height)     # Output: 5.7
+print(is_student) # Output: True
+
+# Multiple assignments
+x, y, z = 1, 2, 3
+print(x, y, z)    # Output: 1 2 3
+
+# Swapping variables
+x, y = y, x
+print(x, y)       # Output: 2 1
+```
