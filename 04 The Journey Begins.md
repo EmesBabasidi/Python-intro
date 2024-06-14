@@ -9,14 +9,12 @@ Before diving in, let's outline the topics we'll be covering:
 1. **Python Syntax**
 2. **Data Types**
 3. **Python Operators**
-4. **Arithmetic Operations**
-5. **Variables**
-6. **Basic Standard Functions**
-7. **Boolean and Logical Operators**
+4. **Variables**
+5. **Basic Standard Functions** 
 
 It's worth noting that some topics may be combined within a single example to enhance comprehension.
 
-## Getting Started
+# Getting Started
 
 If you haven't set up your Python environment yet, make sure to do so. Once you're ready, let's start our exploration of Python's fundamentals. 
 
@@ -28,7 +26,7 @@ print("Hello, This is my fisrt Python code!")
 Feel free to run this simple code to ensure everything is set up correctly. You're encouraged to modify the sentence enclosed in double quotes according to your liking. 
 Let's embark on this learning journey together!
 
-## Python Syntax
+# Python Syntax
 
 The syntax of a programming language sets it apart from others, defining how commands are structured. In Python, some distinctive features shape its syntax:
 
@@ -58,7 +56,7 @@ is_He_in()  # invoking the function
 
 This example shows various elements of Python syntax, including variable declaration, function definition, conditional statements, and function invocation. As we progress, we'll see the details of each of these components.
 
-## Data Types
+# Data Types
 
 The most basic data types used extensively in programming (python and others) are:
 
@@ -73,3 +71,155 @@ The most basic data types used extensively in programming (python and others) ar
 These fundamental data types form the building blocks for more complex data structures and are widely employed in programming for various applications.
 We shall see some examples very soon. 
 The good thing about python with regards to data types is that it automatically detects what is the type of data in question without you telling it. Also there is no need for you to declare the data type of a variable as in other languages like C++.
+
+# Python Operators
+**There are various operators in python, but the basic operators and oparations are:**
+ ## 1. Arithmetic Operators
+Arithmetic operators perform basic mathematical operations.
+1. Addition (+): Adds two values.
+``` python
+result = 5 + 3  # Output: 8
+print(result)
+```
+2. Subtraction (-): Subtracts the second value from the first.
+```python
+result = 5 - 3  # Output: 2
+print(result)
+```
+3. Multiplication (*): Multiplies two values.
+``` python
+result = 5 * 3  # Output: 15
+print(result)
+```
+4. Division (/): Divides the first value by the second.
+``` python
+result = 5 / 3  # Output: 1.666...
+print(result)
+```
+5. Floor Division (//): Divides and returns the integer part of the quotient.
+``` python
+result = 5 // 3  # Output: 1
+print(result)
+```
+6. Modulus (%): Returns the remainder of the division.
+``` python
+result = 5 % 3  # Output: 2
+print(result)
+```
+7. Exponentiation (**): Raises the first value to the power of the second.
+```python
+result = 5 ** 3  # Output: 125
+print(result)
+```
+
+### Order of Operations (PEMDAS)
+The order of arithmetic operations in Python follows PEMDAS:
+Parentheses: ()
+Exponents: **
+Multiplication and Division: *, /, //, % (left to right)
+Addition and Subtraction: +, - (left to right)
+Example:
+
+``` python
+result = (3 + 2) * 2 ** 2 / (5 - 3) + 6
+# Steps:
+# 1. Parentheses: (3 + 2) -> 5 and (5 - 3) -> 2
+# 2. Exponents: 2 ** 2 -> 4
+# 3. Multiplication/Division (left to right): 5 * 4 -> 20, 20 / 2 -> 10.0
+# 4. Addition: 10.0 + 6 -> 16.0
+print(result)  # Output: 16.0
+```
+Understanding these operators and their precedence is crucial for writing accurate and efficient Python code.
+
+## 2. Comparison Operators
+Comparison operators compare two values and return a boolean result.
+1. Equal to (==): Checks if two values are equal.
+``` python
+result = (5 == 3)  # Output: False
+print(result)
+```
+2. Not equal to (!=): Checks if two values are not equal.
+``` python
+result = (5 != 3)  # Output: True
+print(result)
+```
+3. Greater than (>): Checks if the first value is greater than the second.
+``` python
+result = (5 > 3)  # Output: True
+print(result)
+```
+5. Less than (<): Checks if the first value is less than the second.
+``` python
+result = (5 < 3)  # Output: False
+print(result)
+```
+6. Greater than or equal to (>=): Checks if the first value is greater than or equal to the second.
+``` python
+result = (5 >= 3)  # Output: True
+print(result)
+```
+7. Less than or equal to (<=): Checks if the first value is less than or equal to the second.
+``` python
+result = (5 <= 3)  # Output: False
+print(result)
+```
+## 3. Logical Operators
+Logical operators combine conditional statements.
+1. AND (and): Returns True if both statements are true.
+``` python
+result = (5 > 3 and 2 < 4)  # Output: True
+print(result)
+```
+2. OR (or): Returns True if at least one statement is true.
+``` python
+result = (5 > 3 or 2 > 4)  # Output: True
+print(result)
+```
+3. NOT (not): Reverses the result; returns False if the result is true.
+``` python
+result = not(5 > 3)  # Output: False
+print(result)
+```
+## 4. Assignment Operators
+Assignment operators are used to assign values to variables.
+1. Assign (=): Assigns a value to a variable.
+```
+python
+x = 5
+print(x)
+```
+2. Add and Assign (+=): Adds and assigns the result to the variable.
+``` python
+x += 3  # Equivalent to x = x + 3
+print(x)
+```
+3. Subtract and Assign (-=): Subtracts and assigns the result to the variable.
+``` python
+x -= 3  # Equivalent to x = x - 3
+print(x)
+```
+4. Multiply and Assign (*=): Multiplies and assigns the result to the variable.
+``` python
+x *= 3  # Equivalent to x = x * 3
+print(x)
+```
+5. Divide and Assign (/=): Divides and assigns the result to the variable.
+``` python
+x /= 3  # Equivalent to x = x / 3
+print(x)
+```
+Floor Divide and Assign (//=): Floor divides and assigns the result to the variable.
+``` python
+x //= 3  # Equivalent to x = x // 3
+print(x)
+```
+7. Modulus and Assign (%=): Takes modulus and assigns the result to the variable.
+``` python
+x %= 3  # Equivalent to x = x % 3
+print(x)
+```
+8. Exponent and Assign (**=): Raises to the power and assigns the result to the variable.
+``` python
+x **= 3  # Equivalent to x = x ** 3
+print(x)
+```
