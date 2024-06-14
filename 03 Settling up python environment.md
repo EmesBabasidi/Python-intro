@@ -16,7 +16,7 @@ These IDEs offer various features like code completion, debugging tools, and pro
 2. **Jupyter Notebook:**
    Jupyter Notebook allows you to create and share live code, equations, visualizations, and text. It's ideal for machine learning, data exploration, and visualization, offering an interactive environment for experimenting with code and sharing analyses.
 
-## Visual Studio Code (VS Code)
+# Visual Studio Code (VS Code)
 
 VS Code is a free, lightweight source code editor customizable through extensions, supporting various programming needs. Key features include:
 
