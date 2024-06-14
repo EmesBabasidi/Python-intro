@@ -366,3 +366,10 @@ Returns a list of the attributes and methods of any object (e.g., modules, lists
 print(dir(str))  # Lists all attributes and methods of the string class
 ```
 These basic standard functions provide a foundation for performing a variety of common tasks in Python programming. They are essential for beginners to learn and understand how to utilize them effectively. You can refer to [PYTHON DOCUMENTATION](https://docs.python.org/3/library/functions.html) for more of these functions.
+
+
+# Congratulations!
+
+You're on the right path! This guide covers some of the most essential information an absolute beginner in Python will need. Remember, practice is key. Without practice, what you learn today might be forgotten tomorrow. So, keep coding and experimenting!
+
+Feel ready? Great! Let's move on to the next file and continue your journey into the world of Python programming. Keep up the great work!
