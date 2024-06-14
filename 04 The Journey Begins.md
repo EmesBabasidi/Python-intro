@@ -208,7 +208,7 @@ print(x)
 x /= 3  # Equivalent to x = x / 3
 print(x)
 ```
-Floor Divide and Assign (//=): Floor divides and assigns the result to the variable.
+6. Floor Divide and Assign (//=): Floor divides and assigns the result to the variable.
 ``` python
 x //= 3  # Equivalent to x = x // 3
 print(x)
@@ -285,22 +285,22 @@ print(x, y)       # Output: 2 1
 # Basic Standard Functions in Python.
 Python has many standard functions that can be utilised, making it easy to write and implement programs. The following are basic functions to familiarise yourself with:
 
-1. print()
+1. print(): 
 Prints the specified message to the console or other standard output device.
 ``` python
 print("Hello, World!")  # Output: Hello, World!
 ```
-2. type()
+2. type(): 
 Returns the type of the specified object.
 ``` python
 print(type(5))  # Output: <class 'int'>
 ```
-3. len()
+3. len(): 
 Returns the length (the number of items) of an object.
 ``` python
 print(len("Hello"))  # Output: 5
 ```
-4. int(), float(), str(), bool()
+4. int(), float(), str(), bool(): 
 Convert values to an integer, float, or string, respectively.
 ``` python
 print(int("10"))   # Output: 10
@@ -308,41 +308,41 @@ print(float("10")) # Output: 10.0
 print(str(10))     # Output: '10'
 print(bool(10))    # Output: True
 ```
-5. input()
+5. input(): 
 Reads a line from input (usually from the user), converts it to a string, and returns it.
 ``` python
 name = input("Enter your name: ")
 print("Hello, " + name)
 ```
-sum()
+6. sum(): 
 Sums the items of an iterable from left to right and returns the total.
 ``` python
 print(sum([1, 2, 3, 4]))  # Output: 10
 ```
-7. max() and min()
+7. max() and min(): 
 Return the largest and smallest items in an iterable, respectively.
 ``` python
 print(max(1, 2, 3, 4))  # Output: 4
 print(min(1, 2, 3, 4))  # Output: 1
 ```
-8. abs()
+8. abs(): 
 Returns the absolute value of a number.
 ``` python
 print(abs(-5))  # Output: 5
 ```
-9. round()
+9. round(): 
 Rounds a number to a specified number of decimal places.
 ``` python
 print(round(3.14159, 2))  # Output: 3.14
 ```
-10. range()
+10. range():
 Generates a sequence of numbers, which is often used in for loops.
 ``` python
 for i in range(5):
     print(i)
 # Output: 0 1 2 3 4
 ```
-11. list(), tuple(), set(), dict()
+11. list(), tuple(), set(), dict():
 Create a list, tuple, set, or dictionary.
 ``` python
 print(list("Hello"))   # Output: ['H', 'e', 'l', 'l', 'o']
@@ -350,17 +350,17 @@ print(tuple("Hello"))  # Output: ('H', 'e', 'l', 'l', 'o')
 print(set("Hello"))    # Output: {'o', 'H', 'e', 'l'}
 print(dict(a=1, b=2))  # Output: {'a': 1, 'b': 2}
 ``` 
-12. sorted()
+12. sorted():
 Returns a sorted list of the specified iterable's items.
 ``` python
 print(sorted([3, 1, 4, 1, 5, 9]))  # Output: [1, 1, 3, 4, 5, 9]
 ```
-13. help()
+13. help():
 Invokes the built-in help system. It can be used to get documentation on modules, classes, functions, and more.
 ``` python
 help(print)
 ```
-14. dir()
+14. dir():
 Returns a list of the attributes and methods of any object (e.g., modules, lists, strings).
 ``` python
 print(dir(str))  # Lists all attributes and methods of the string class
